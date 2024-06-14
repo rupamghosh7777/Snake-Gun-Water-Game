@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display:grid ;
+    justify-content: center;
+    align-items: center;
+}
+.main-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+ .heading h3 {
+    display: flex;
+    margin-left: 88px;
+     margin-bottom:18px ;
+}
+#user{
+    margin-right: 8px;
+     margin-left: 8px;
+    padding:5px ;
+}
+#btn-play{
+    margin-left: 6px;
+    margin-right: 8px;
+    padding:6px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+#user{
+    background-color: hotpink;
+    border-radius: 5px;
+    padding:6px;
+}
